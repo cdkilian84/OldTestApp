@@ -37,7 +37,5 @@ export class MemberEditComponent implements OnInit {
     }, error => {
       this.alertify.error(error);
     });
-    
   }
-
 }
